@@ -8,6 +8,7 @@ Point it at a product — Linear, Stripe, Vercel, Raycast, Notion… — and get
 
 [![Download .skill](https://img.shields.io/badge/Download-design--steal.skill-7C3AED?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/kevincostes/design-steal/releases/latest/download/design-steal.skill)
 [![Latest release](https://img.shields.io/github/v/release/kevincostes/design-steal?style=for-the-badge&color=111827)](https://github.com/kevincostes/design-steal/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 
 </div>
 
@@ -93,6 +94,8 @@ Quiero una skill con el design system de raycast.com
 ```
 design-steal/
 ├── SKILL.md                     # Workflow Claude follows
+├── design-steal.skill           # Packaged skill, ready to install
+├── LICENSE                      # MIT
 ├── scripts/
 │   └── extract_tokens.js        # In-page token & motion extractor
 └── references/
@@ -103,6 +106,10 @@ design-steal/
 ## Ethics
 
 `design-steal` documents a **design language**, not brand assets. Generated skills leave out logos, proprietary icons, illustrations and marketing copy, and name free alternatives for paid fonts. Use the output to learn from great products and build your own. Don't use it to impersonate them.
+
+## License
+
+[MIT](LICENSE) © Kevin Costes
 
 <div align="center">
 <sub>Inspired by the <code>apple-design</code> skill · Built with Claude</sub>
